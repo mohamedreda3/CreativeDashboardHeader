@@ -25,7 +25,7 @@ body {
 
 header {
     width: 190px;
-    height: 100vh;
+    min-height: 100vh;
     background: #0000004a;
     backdrop-filter: blur(15px);
     padding: 20px 13px;
