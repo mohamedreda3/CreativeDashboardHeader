@@ -11,8 +11,8 @@ openDrop.forEach(ele => {
     }
 });
 
-let dropLi = document.querySelectorAll('ul.dropmenu li');
 
+let dropLi = document.querySelectorAll('ul.dropmenu li');
 dropLi.forEach(item => {
     item.addEventListener('click', (e) => {
         dropLi.forEach(dropLis => dropLis.classList.remove("active"));
