@@ -30,6 +30,8 @@ header {
     backdrop-filter: blur(15px);
     padding: 20px 13px;
     transition: .5s ease-in-out;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -257,9 +259,6 @@ svg {
     overflow: hidden;
     width: 100%;
 }
-
-
-
 
 .uploadImage {
     width: 100%;
